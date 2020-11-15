@@ -1,0 +1,4 @@
+# vuedrupal.admin:
+#   title: 'Configuración del Juego 150'
+#   parent: system.admin_config_development
+  # route_name: vuedrupal.admin.vuedrupal.config

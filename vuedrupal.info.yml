@@ -1,0 +1,6 @@
+name:  Vue Drupal
+type: module
+description: 'Front desarollado desde Vue desarrollado por David Martinez.'
+package: 'vue'
+version: 1.0.0
+core: 8.x

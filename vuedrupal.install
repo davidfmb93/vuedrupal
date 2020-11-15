@@ -1,0 +1,202 @@
+<?php
+/**
+ * @file
+ * Install and uninstall functions for the tablesort_example module.
+ *
+ * This file contains the functions required to perform install and
+ * uninstall operations.
+ */
+/**
+ * Implements hook_uninstall().
+ *
+ * It's good to clean up after ourselves.
+ *
+ * @ingroup vuedrupal
+ */
+// function vuedrupal_uninstall() {
+//   $db_connection = \Drupal::database();
+//   $db_connection->schema()->dropTable('vuedrupal_data');
+//   $db_connection->schema()->dropTable('vuedrupal_users');
+// }
+/**
+ * Implements hook_schema().
+ *
+ * @ingroup vuedrupal
+ */
+// function vuedrupal_schema() {
+//   $schema['vuedrupal_data'] = [
+//     'description' => 'Stores some values for sorting fun.',
+//     'fields' => [
+//       'id' => [
+//         'type' => 'serial',
+//         'unsigned' => TRUE,
+//         'not null' => TRUE,
+//       ],
+//       'y' => [
+//         'mysql_type' => 'double',
+//         'null' => TRUE,
+//       ],
+//       'user_id' => [
+//         'type' => 'int',
+//         'unsigned' => TRUE,
+//         'length' => 11,
+//         'null' => TRUE,
+//         'default' => null,
+//       ],
+//       'points' => [
+//         'type' => 'int',
+//         'length' => 11,
+//         'null' => TRUE,
+//         'default' => null,
+//       ],
+//       'token' => [
+//         'type' => 'varchar',
+//         'length' => 500,
+//         'null' => TRUE,
+//         'default' => null,
+//       ],
+//       'created_at' => [
+//         'mysql_type' => 'timestamp DEFAULT CURRENT_TIMESTAMP',
+//         'not null' => TRUE,
+//       ],
+//       'updated_at' => [
+//         'mysql_type' => 'timestamp DEFAULT CURRENT_TIMESTAMP',
+//         'not null' => TRUE,
+//       ],
+//     ],
+//     'primary key' => ['id'],
+//   ];
+//   $schema['vuedrupal_users'] = [
+//     'description' => 'Stores some values for sorting fun.',
+//     'fields' => [
+//       'id' => [
+//         'type' => 'serial',
+//         'unsigned' => TRUE,
+//         'not null' => TRUE,
+//       ],
+//       'name' => [
+//         'type' => 'varchar',
+//         'length' => 500,
+//         'null' => TRUE,
+//       ],
+//       'lastname' => [
+//         'type' => 'varchar',
+//         'length' => 500,
+//         'null' => TRUE,
+//         'default' => null,
+//       ],
+//       'email' => [
+//         'type' => 'varchar',
+//         'length' => 500,
+//         'null' => TRUE,
+//         'default' => null,
+//       ],
+//       'document' => [
+//         'type' => 'varchar',
+//         'length' => 500,
+//         'null' => TRUE,
+//         'default' => null,
+//       ],
+//       'city' => [
+//         'type' => 'varchar',
+//         'length' => 500,
+//         'null' => TRUE,
+//         'default' => null,
+//       ],
+//       'session' => [
+//         'type' => 'varchar',
+//         'length' => 500,
+//         'null' => TRUE,
+//         'default' => null,
+//       ],
+//       'points' => [
+//         'type' => 'int',
+//         'length' => 11,
+//         'null' => TRUE,
+//         'default' => null,
+//       ],
+//       'trap' => [
+//         'type' => 'int',
+//         'length' => 11,
+//         'null' => TRUE,
+//         'default' => 0,
+//       ],
+//       'week' => [
+//         'type' => 'int',
+//         'length' => 11,
+//         'null' => TRUE,
+//         'default' => null,
+//       ],
+//       'plays' => [
+//         'type' => 'int',
+//         'length' => 11,
+//         'null' => TRUE,
+//         'default' => 0,
+//       ],
+//       'date_play' => [
+//         'mysql_type' => 'timestamp DEFAULT CURRENT_TIMESTAMP',
+//         'not null' => TRUE,
+//       ],
+//       'created_at' => [
+//         'mysql_type' => 'timestamp DEFAULT CURRENT_TIMESTAMP',
+//         'not null' => TRUE,
+//       ],
+//       'updated_at' => [
+//         'mysql_type' => 'timestamp DEFAULT CURRENT_TIMESTAMP',
+//         'not null' => TRUE,
+//       ],
+//     ],
+//     'primary key' => ['id'],
+//   ];
+
+
+//   $schema['vuedrupal_users_extra'] = [
+//     'description' => 'Stores some values for sorting fun.',
+//     'fields' => [
+//       'id' => [
+//         'type' => 'serial',
+//         'unsigned' => TRUE,
+//         'not null' => TRUE,
+//       ],
+//       'name' => [
+//         'type' => 'varchar',
+//         'length' => 500,
+//         'null' => TRUE,
+//       ],
+//       'lastname' => [
+//         'type' => 'varchar',
+//         'length' => 500,
+//         'null' => TRUE,
+//         'default' => null,
+//       ],
+//       'email' => [
+//         'type' => 'varchar',
+//         'length' => 500,
+//         'null' => TRUE,
+//         'default' => null,
+//       ],
+//       'document' => [
+//         'type' => 'varchar',
+//         'length' => 500,
+//         'null' => TRUE,
+//         'default' => null,
+//       ],
+//       'city' => [
+//         'type' => 'varchar',
+//         'length' => 500,
+//         'null' => TRUE,
+//         'default' => null,
+//       ],
+//       'created_at' => [
+//         'mysql_type' => 'timestamp DEFAULT CURRENT_TIMESTAMP',
+//         'not null' => TRUE,
+//       ],
+//       'updated_at' => [
+//         'mysql_type' => 'timestamp DEFAULT CURRENT_TIMESTAMP',
+//         'not null' => TRUE,
+//       ],
+//     ],
+//     'primary key' => ['id'],
+//   ];
+//   return $schema;
+// }

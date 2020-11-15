@@ -1,0 +1,15 @@
+vuedrupal.vue:
+  path: 'vue'
+  defaults:
+    _controller: '\Drupal\vuedrupal\Controller\VueController::index'
+    _title: 'vue'
+  requirements:
+    _permission: 'access content'
+
+vuedrupal.about:
+  path: '/vue/{path}'
+  defaults:
+    _controller: '\Drupal\vuedrupal\Controller\VueController::index'
+    _title: 'vue'
+  requirements:
+    _permission: 'access content'

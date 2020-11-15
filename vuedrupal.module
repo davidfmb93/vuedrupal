@@ -1,0 +1,34 @@
+<?php
+/**
+ * @File
+ * mapa custom block for Drupal 8.
+ * @author David Martinez
+ */
+
+/**
+ * Implementing hook_menu().
+ */
+
+use Drupal\field_collection\Entity\FieldCollectionItem;
+
+// function vuedrupal_page_attachments(array &$page){
+//   var_dump($page);die;
+//   $page['#attached']['library'][] = 'vuedrupal/custom_game';
+// }
+function vuedrupal_theme($existing, $type, $theme, $path) {
+  return [
+    'vue' => [
+      'variables' => ['data' => null],
+    ],
+  ];
+}
+
+
+// function pages_form_alter(&$form, \Drupal\Core\Form\FormStateInterface $form_state, $form_id) {
+//   switch ($form_id) {
+//     case 'node_[CONTENT_TYPE]_edit_form':
+//       $form['title']['#disabled'] = 'disabled';
+//       break;
+//   }
+// }
+
