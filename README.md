@@ -1,24 +1,37 @@
-# Drupal Vue
+# VueDrupal
 ### v: 1.0
-desarrollado por: David Martinez
+Developed By: David Martinez
 
-Drupal Vue es un modulo para generar estructuras de front realizadas en vueJS para drupal
+VueDrupal is a module for to generate front structures made in VueJs(Vuetify) for Drupal
 
-
-## Desarrollado:
+## Currently:
 Se encuentra elaborado con vuetify
  - axios
  - routes
 
+## Coming soon.
+- Auth
+- Dinamics Cruds
+- Dinamic Routes
+- First video about instalation.
+ 
 ## Use
 
-se debe trabajar normalmente como se trabaja en vuejs,
+this module nedd to be installed and this generate a route /vue, you need config the principal routte. Besides that, you need choose theme blank. 
+Finally, you need go to vuedrupal module and run the following comand:
+
  - npm run serve: para trabajar
  - npm run build: para compilar 
 
-Todo se debe trabajar por medio de apis
+It should work normally vuetify, but the routes must be registered. 
+
+How is for JS, everything must be through apis. 
 
 ## Instalación y desinstalación del módulo
 
  - drush pm-uninstall vuedrupal
  - drush en vuedrupal
+ 
+## More Information
+This is a first version, if you need more information you can to comunicate with me for the email: davidfmb93@gmail.com
+ 
